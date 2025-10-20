@@ -1,12 +1,161 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Fonte -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+        rel="stylesheet">
+
+        <!-- Link com CSS -->
         <link rel="stylesheet" href="style.css">
+
+        <!-- Título da página -->
         <title>ReciclaTech</title>
     </head>
+    
     <body>
+        <header>
+            <!-- Marca -->
+            <section class="marca"> 
+                <img src="img/Logo.png" 
+                alt="Logo">
+                <h1>ReciclaTech</h1>
+            </section>
+
+            <!-- Menu -->
+            <section class="menu">
+                <button id="steps"> Como Funciona </button>
+                <button id="steps"> Doar </button>
+                <button id="steps"> Adquirir </button>
+                <button id="ComeçarAgora"> Começar Agora </button>
+            </section> 
+
+        </header>
+
+        <!-- Conteúdo principal da página -->
+        <main>
+            <section class="introdução">
+                <h2> Dê uma segunda vida aos seus eletrônicos! </h2>
+                <p> Conectamos pessoas que querem doar eletrônicos em bom estado com quem precisa deles. Simples, gratuito e sustentável! </p>
+            </section>
+
+            <Section class="button2">
+                <button id="QueroDoar"> Quero Doar 
+                    <img src="img/Quero Doar.png" alt="Quero Doar">
+                </button>
+            
+                <button id="QueroAdquirir"> Quero Adquirir 
+                    <img src="img/Quero Adquirir.png" alt="Quero Adquirir">
+                </button>
+            </Section>    
+
+            <article class="ImagemCentral">   
+                <img src="img/Reciclagem de placa eletrônica.png" alt="Reciclagem de placa eletrônica">
+            </article> 
+
+            <section class="dados">
+                <div class="card1">
+                    <h3> 2.5k+ </h3>
+                    <p> Eletrônicos doados </p>
+                </div>
+            
+                <div class="card1">
+                    <h3> 1.8k+ </h3>
+                    <p> Famílias beneficiadas </p>
+                </div>
+
+                <div class="card1">
+                    <h3> 95% </h3>
+                    <p> Satisfação dos usuários  </p>
+                </div>
+            </section>
+
+            <section class="funcionamento">
+                <h4> Como funciona? </h4>
+                <p> É mais fácil que trocar a pilha do controle! </p>
+            </section>
+
+            <!-- Para Doadores -->
+            <article class="ParaDoadores">  
+
+                <section class="header-doadores">
+                    <img src="img/Doadores.png" alt="Doadores" class="icone-doadores">
+                    <h3> Para Doadores </h3>
+                </section>
+                    <p class="subtítulo"> Transforme seu "lixo eletrônico" no tesouro de alguém </p>
+
+                <section class="etapa-item">
+                    <div class="numero-circulo verde">1</div>
+                    <div class="etapa-conteudo">
+                        <h4>Cadastre seu eletrônico</h4>
+                        <p>Tire umas fotos, descreva o estado e pronto!</p>
+                    </div>
+                </section>
+
+                <section class="etapa-item">
+                    <div class="numero-circulo verde">2</div>
+                    <div class="etapa-conteudo">
+                        <h4>Aguarde o match</h4>
+                        <p>Alguém vai se interessar pelo seu item</p>
+                    </div>
+                </section>
+
+                <section class="etapa-item">
+                    <div class="numero-circulo verde">3</div>
+                    <div class="etapa-conteudo">
+                        <h4>Combine a entrega</h4>
+                        <p>Vocês decidem como fazer a entrega</p>
+                    </div>
+                </section>
+
+            </article>
+
+            <article class="ParaAdquirentes">
+
+                <section class="header-adquirentes">
+                    <img src="img/Adquirentes.png" alt="Adquirentes" class="icone-adquirentes">
+                    <h3> Para Adquirentes </h3>
+                </section>
+                    <p class="subtítulo"> Encontre o eletrônico dos seus sonhos de graça </p>
+
+                <section class="etapa-item">
+                    <div class="numero-circulo azul">1</div>
+                    <div class="etapa-conteudo">
+                        <h4>Explore os itens</h4>
+                        <p>Navegue pelos eletrônicos disponíveis</p>
+                    </div>
+                </section>
+
+                <section class="etapa-item">
+                    <div class="numero-circulo azul">2</div>
+                    <div class="etapa-conteudo">
+                        <h4>Demonstre interesse</h4>
+                        <p>Clique em "Tenho interesse" no item</p>
+                    </div>
+                </section>
+
+                <section class="etapa-item">
+                    <div class="numero-circulo azul">3</div>
+                    <div class="etapa-conteudo">
+                        <h4>Receba seu novo gadget</h4>
+                        <p>Combine com o doador e seja feliz!</p>
+                    </div>
+                </section>
+
+            </article>
+
+        </main>
+
+        <!-- Rodapé da página -->
+        <footer>
+            <p>2025 ReciclaTech. Todos os direitos reservados.<br>
+            Desenvolvido por Raquel Lopes Barbosa.</p>
+        </footer>
     
     </body>
 </html>

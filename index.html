@@ -29,9 +29,9 @@
 
             <!-- Menu -->
             <section class="menu">
-                <button id="steps"> Como Funciona </button>
-                <button id="steps"> Doar </button>
-                <button id="steps"> Adquirir </button>
+                <a href="#funcionamento" id="steps"> Como Funciona </a>
+                <a href="" id="steps"> Doar </a>
+                <a href="" id="steps"> Adquirir </a>
                 <button id="ComeçarAgora"> Começar Agora </button>
             </section> 
 
@@ -44,13 +44,13 @@
                 <p> Conectamos pessoas que querem doar eletrônicos em bom estado com quem precisa deles. Simples, gratuito e sustentável! </p>
             </section>
 
-            <Section class="button2">
+            <Section class="button1">
                 <button id="QueroDoar"> Quero Doar 
-                    <img src="img/Quero Doar.png" alt="Quero Doar">
+                    <img src="img/Quero Doar.png" alt="Quero Doar"/>
                 </button>
             
                 <button id="QueroAdquirir"> Quero Adquirir 
-                    <img src="img/Quero Adquirir.png" alt="Quero Adquirir">
+                    <img src="img/Quero Adquirir.png" alt="Quero Adquirir"/>
                 </button>
             </Section>    
 
@@ -75,14 +75,13 @@
                 </div>
             </section>
 
-            <section class="funcionamento">
+            <section id="funcionamento" class="funcionamento">
                 <h4> Como funciona? </h4>
                 <p> É mais fácil que trocar a pilha do controle! </p>
             </section>
 
             <!-- Para Doadores -->
-            <article class="ParaDoadores">  
-
+            <article class="ParaDoadores" id="ParaDoadores">  
                 <section class="header-doadores">
                     <img src="img/Doadores.png" alt="Doadores" class="icone-doadores">
                     <h3> Para Doadores </h3>
@@ -112,11 +111,9 @@
                         <p>Vocês decidem como fazer a entrega</p>
                     </div>
                 </section>
-
             </article>
 
             <article class="ParaAdquirentes">
-
                 <section class="header-adquirentes">
                     <img src="img/Adquirentes.png" alt="Adquirentes" class="icone-adquirentes">
                     <h3> Para Adquirentes </h3>
@@ -146,15 +143,131 @@
                         <p>Combine com o doador e seja feliz!</p>
                     </div>
                 </section>
-
             </article>
+
+            <section class="categorias">
+                <h4> Produtos disponiveis </h4>
+                <p> Categorias mais populares </p>
+            </section>
+
+            <article class="produtos">
+                <div class="card2">
+                    <img src="img/Fone.png" alt="Fone" class="fotos"/>
+                    <h3> Fones </h3>
+                    <p> Fones em ótimo estado. </p>
+                    <button id="button2"> Quero Adquirir </button>
+                </div>
+            
+                <div class="card2">
+                    <img src="img/Notebook.png" alt="Notebook" class="fotos"/>
+                    <h3> Notebooks </h3>
+                    <p> Notebooks funcionando perfeitamente. </p>
+                    <button id="button2"> Quero Adquirir </button>
+                </div>
+
+                <div class="card2">
+                    <img src="img/Smartphone.png" alt="Smartphone" class="fotos"/>
+                    <h3> Smartphones </h3>
+                    <p> Celulares em perfeito estado.  </p>
+                    <button id="button2"> Quero Adquirir </button>
+                </div>
+            </article>
+
+            <section class="avaliações">
+                <h4> O que o pessoal tá falando? </h4>
+                <p> Avaliações reais de quem já testou </p>
+            </section>
+
+            <article class="comentários">
+                <section class="card3">
+                    <img src="img/Estrelas.png" alt="Estrelas"/>
+                    <p> "Doei meu notebook antigo e em 2 dias já tinha alguém interessado! Ver a felicidade do estudante que recebeu não tem preço! 😊" </p>
+                    <div class="logo-usuário">
+                        <img src="img/Doadores.png" alt="doador" class="user"/>
+                        <div class="usuário">
+                            <h4> João Santos </h4>
+                            <p> Doador </p>
+                        </div>    
+                    </div>
+                </section>
+            
+                <section class="card3">
+                    <img src="img/Estrelas.png" alt="Estrelas"/>
+                    <p> "Consegui um iPhone 12 em perfeito estado! A dona anterior cuidou super bem. Economizei uma grana e ainda ajudei o meio ambiente! 🌱" </p>
+                    <div class="logo-usuário">
+                        <img src="img/Adquirentes.png" alt="adquirente" class="user"/>
+                        <div class="usuário">
+                            <h4> Maria Silva </h4>
+                            <p> Adquirente </p>
+                        </div> 
+                    </div>    
+                </section>
+
+                <section class="card3">
+                    <img src="img/Estrelas.png" alt="Estrelas"/>
+                    <p> "Plataforma incrível! Já doei 3 itens e adquiri 2. A comunidade é super respeitosa e o processo é muito fácil! 👏" </p>
+                    <div class="logo-usuário">
+                        <img src="img/Usuária ativa.png" alt="ativa" class="user"/>
+                        <div class="usuário">    
+                            <h4> Ana Costa </h4>
+                            <p> Usuária ativa </p>
+                        </div>
+                    </div>    
+                </section>
+            </article>
+
+            <section class="pronto">
+                <h4> Pronto para fazer a diferença? </h4>
+                <p> Junte-se à nossa comunidade e ajude a criar um mundo mais sustentável, um eletrônico de cada vez! </p>
+                <div class="button3">
+                    <button id="Começar"> Começar Agora </button>
+                    <button id="SaberMais"> Saber Mais </button>
+                </div>
+            </section>
 
         </main>
 
         <!-- Rodapé da página -->
         <footer>
-            <p>2025 ReciclaTech. Todos os direitos reservados.<br>
-            Desenvolvido por Raquel Lopes Barbosa.</p>
+            <!-- Marca -->
+            <section class="marcaf"> 
+                <img src="img/Logo.png" alt="Logo">
+                <h1>ReciclaTech</h1>
+                <p> Conectando pessoas através da sustentabilidade e tecnologia! </p>
+            </section>
+
+            <article class="rodapé">
+                <ul class="links">
+                    <h6> Links Rápidos </h6>
+                    <li> Como Funciona </li>
+                    <li> Doar </li>
+                    <li> Adquirir </li>
+                    <li> Contato </li>
+                </ul>
+
+                <ul class="suporte">
+                    <h6> Suporte </h6>
+                    <li> FAQ </li>
+                    <li> Termos de Uso </li>
+                    <li> Privacidade </li>
+                    <li> Ajuda </li>
+                </ul>
+
+                <section class="redes">
+                    <h6> Redes Sociais </h6>
+                    <p> Siga-nos para novidades e dicas de sustentabilidade! </p>
+                    <div class="sociais">
+                        <img src="img/Facebook.png" alt="Facebook"/>
+                        <img src="img/Instagram.png" alt="Instagram"/>
+                        <img src="img/Twitter.png" alt="Twitter"/>
+                    </div>
+                </section>  
+            </article>  
+
+            <div class="final">
+                <p>© 2025 ReciclaTech. Todos os direitos reservados. <br>
+                Feito por Raquel Lopes Barbosa com 💚 para um mundo melhor.</p>
+            </div>
         </footer>
     
     </body>
